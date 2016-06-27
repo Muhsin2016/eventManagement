@@ -1,0 +1,296 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "name": "Friendship",
+      "teacher": "By Shaykh Abdullahi Farah",
+      "address": {
+        "address_1": "3232 Eden Prairie Rd",
+        "city": "Eden Prairie",
+        "state": "MN",
+        "zip": 55346
+      },
+      "date": "September 1, 2016",
+      "cost": 50,
+      "likes": 46,
+      "unlikes": 23,
+      "image": "http://www.prophetpbuh.com/wp-content/uploads/2014/05/tumblr_n5af5fdjxe1r75xe0o1_1280.jpg",
+      "schedules": [
+        {
+          "time": "10:00-12:00",
+          "name": "Introduction"
+        },
+        {
+          "time": "12:00-1:00",
+          "name": "Break"
+        },
+        {
+          "time": "1:00-4:00",
+          "name": "Siirah Lesson"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Janna and Jahannam",
+      "teacher": "By Shaykh Mohammad Al-Shinawi",
+      "address": {
+        "address_1": "9026 city park",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": 12345
+      },
+      "date": "January 10, 2016",
+      "cost": 170,
+      "likes": 28,
+      "unlikes": 19,
+      "image": "http://2.bp.blogspot.com/-G50EKJOk8P4/UF7AJhmwgfI/AAAAAAAATZQ/AGpkQlxXjgA/s1600/Hell+or+Jahannam+and+Paradise+or+Jannah.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Fiqh of Family",
+      "teacher": "By Shaykh Mowleed Ali",
+      "address": {
+        "address_1": "9026 city park",
+        "city": "Durham",
+        "state": "NC",
+        "zip": 12345
+      },
+      "date": "October 24, 2016",
+      "cost": 160,
+      "likes": 46,
+      "unlikes": 10,
+      "image": "http://www.islamiclife.com/userfiles/images/2013/ebook_divorce_0001.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Islamic Inheritance ",
+      "teacher": "By Shaykh Waleed Al-Maneesi",
+      "address": {
+        "address_1": "8021 Park Ave",
+        "city": "Bloomigton",
+        "state": "MN",
+        "zip": 12345
+      },
+      "date": "May 19, 2016",
+      "cost": 180,
+      "likes": 13,
+      "unlikes": 10,
+      "image": "http://www.islamicsoftware.org/irth/fareedha_tr.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Tajweed Rules",
+      "teacher": "By Shaykh Adam Farah",
+      "address": {
+        "address_1": "9026 city park",
+        "city": "Austin",
+        "state": "TX",
+        "zip": 12345
+      },
+      "date": "March 18, 2016",
+      "cost": 95,
+      "likes": 31,
+      "unlikes": 10,
+      "image": "https://illmstreet.files.wordpress.com/2012/05/tajweed.png"
+    },
+    {
+      "id": 6,
+      "name": "Islamic Finance",
+      "teacher": "By Shaykh Abdullah Mohamed",
+      "address": {
+        "address_1": "9026 city park",
+        "city": "Sacramento",
+        "state": "CA",
+        "zip": 12345
+      },
+      "date": "July 23, 2016",
+      "cost": 130,
+      "likes": 55,
+      "unlikes": 55,
+      "image": "http://genevasbe.com/wp-content/uploads/2015/07/Islamic-Finance7.jpg"
+    },
+    {
+      "id": 7,
+      "name": "A Journey through heaven and hell ",
+      "teacher": "By Shaykh Waleed Basyouni",
+      "address": {
+        "address_1": "9026 city park",
+        "city": "Houston",
+        "state": "Tx",
+        "zip": 12345
+      },
+      "date": "April 22, 2016",
+      "cost": 110,
+      "likes": 33,
+      "unlikes": 18,
+      "image": "http://almaghrib.org/images/seminars/66-th.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Calling People to Alshahadah",
+      "teacher": "Shaykh Kamal El-Mekki",
+      "address": {
+        "address_1": "9026 city park",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": 12345
+      },
+      "date": "Aug 5th, 2016",
+      "cost": 85,
+      "likes": 29,
+      "unlikes": 10,
+      "image": "http://almaghrib.org/images/seminars/39-th.jpg"
+    },
+    {
+      "name": "Quran",
+      "address": {
+        "address_1": "123 chustnut",
+        "city": "Chaska",
+        "state": "MN",
+        "zip": "55318"
+      },
+      "date": "11/23/16",
+      "cost": 100,
+      "image": "http://img15.deviantart.net/38ac/i/2008/091/b/1/al_qura__n_by_perfect_n.jpg",
+      "likes": 10,
+      "unlikes": 13,
+      "id": 15
+    },
+    {
+      "schedules": [
+        {
+          "time": "1:00-200pm",
+          "name": "braek"
+        },
+        {
+          "time": "",
+          "name": ""
+        },
+        {
+          "time": "",
+          "name": ""
+        },
+        {
+          "time": "",
+          "name": ""
+        },
+        {
+          "time": "",
+          "name": ""
+        }
+      ],
+      "likes": 1,
+      "unlikes": 1,
+      "id": 16
+    },
+    {
+      "schedules": [
+        {
+          "time": "1:00-200pm",
+          "name": "braek"
+        },
+        {
+          "time": "",
+          "name": ""
+        },
+        {
+          "time": "",
+          "name": ""
+        },
+        {
+          "time": "",
+          "name": ""
+        },
+        {
+          "time": "",
+          "name": ""
+        }
+      ],
+      "likes": 0,
+      "unlikes": 0,
+      "id": 17
+    },
+    {
+      "schedules": [
+        {
+          "time": "",
+          "name": ""
+        },
+        {
+          "time": "",
+          "name": ""
+        },
+        {
+          "time": "",
+          "name": ""
+        },
+        {
+          "time": "",
+          "name": ""
+        },
+        {
+          "time": "",
+          "name": ""
+        }
+      ],
+      "likes": 0,
+      "unlikes": 0,
+      "id": 18
+    },
+    {
+      "schedules": [
+        {
+          "time": "",
+          "name": ""
+        },
+        {
+          "time": "",
+          "name": ""
+        },
+        {
+          "time": "",
+          "name": ""
+        },
+        {
+          "time": "",
+          "name": ""
+        },
+        {
+          "time": "",
+          "name": ""
+        }
+      ],
+      "likes": 0,
+      "unlikes": 0,
+      "id": 19
+    },
+    {
+      "schedules": [
+        {
+          "time": "",
+          "name": ""
+        },
+        {
+          "time": "",
+          "name": ""
+        },
+        {
+          "time": "",
+          "name": ""
+        },
+        {
+          "time": "",
+          "name": ""
+        },
+        {
+          "time": "",
+          "name": ""
+        }
+      ],
+      "likes": 0,
+      "unlikes": 0,
+      "id": 20
+    }
+  ]
+}

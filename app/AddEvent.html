@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html ng-app = "eventApp" ng-controller="updateEventController">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Event Management</title>
+
+    <!-- Bootstrap -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+    input {
+      margin-bottom: 20px;
+    }
+    </style>
+  </head>
+  <body>
+  <style>
+  input {
+    margin-bottom: 20px;
+  }
+  </style>
+
+
+    <nav class="navbar navbar-default">
+      <ul class="nav navbar-nav">
+          <li> <a href="index.html"> Home </a> </li>
+          <li> <a href="#/addEvent">Add Event</a></li>
+        </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+              <li> <a href="#"> login </a></li>
+
+          </ul>
+</nav>
+
+  <!--  <div class="container">
+      <h1 class ="text-center">Add Event </h1>
+    </div>-->
+    <div class="row">
+      <div class="col-md-6 col-md-offset-4">
+        <form>
+          <div class="form-group">
+            <label for="name"> name </label>
+            <input type="text" class="form-control" id="name" ng-model="event.name">
+
+          </div>
+          <div class="form-group">
+            <label for="teacher"> teacher</label>
+            <input type="text" class="form-control" id="teacher" ng-model="event.teacher">
+
+          </div>
+          <div class="form-group">
+            <label for="address"> address</label>
+            <input type="text" class="form-control" id="address"ng-model="event.address.address_1">
+
+          </div>
+          <div class="form-group">
+            <label for="city"> city</label>
+            <input type="text" class="form-control" id="city"ng-model="event.address.city">
+
+          </div>
+          <div class="form-group">
+            <label for="state"> state</label>
+            <input type="text" class="form-control" id="state"ng-model="event.address.state">
+
+          </div>
+          <div class="form-group">
+            <label for="zip"> zip</label>
+            <input type="text" class="form-control" id="zip"ng-model="event.address.zip">
+
+          </div>
+          <div class="form-group">
+            <label for="Date"> date </label>
+            <input type="text" class="form-control" id="date" ng-model="event.date">
+
+          </div>
+          <div class="form-group">
+            <label for="cost"> cost </label>
+            <input type="text" class="form-control" id="cost" ng-model="event.cost">
+          </div>
+<!--<div class="form-group">
+  <label for="name"> likes </label>
+  <input type="text" class="form-control" id="likes" ng-model="event.likes">
+</div>
+<div class="form-group">
+  <label for="name"> unlikes </label>
+  <input type="text" class="form-control" id="unlikes" ng-model="event.unlikes">
+</div>-->
+            <div class="form-group">
+              <label for="image"> image </label>
+              <input type="text" placeholder="Image URL"class="form-control" id="image" ng-model="event.image">
+
+
+          </div>
+          <image ng-src="{{event.image}}" src""/>
+          <button type="submit" class="btn btn-primary" href="AddEvent.html" ng-click="AddEvent(event)">
+            Save
+          </button>
+          <button type="submit" ng-click="cancelEdit()" class="btn btn-default" ng-click="AddEvent(event)">
+            Cancel
+          </button>
+          </form>
+
+
+        <!--</div>-->
+        <script src="lib/angular/angular.js"></script>
+        <script src="lib/angular/angular-resource.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/services/eventData.js"></script>
+        <script src="js/controllers/updateEventController.js"></script>
+
+
+
+
+
+  </body>
+</html>

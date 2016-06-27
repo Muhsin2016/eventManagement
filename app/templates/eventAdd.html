@@ -1,0 +1,104 @@
+
+
+    <div class="container">
+
+    <div class="row">
+      <div class="col-md-6 col-md-offset-4">
+        <form>
+          <div class="form-group">
+            <label for="name"> name </label>
+            <input type="text" class="form-control" id="name" ng-model="event.name">
+
+          </div>
+          <div class="form-group">
+            <label for="teacher"> teacher</label>
+            <input type="text" class="form-control" id="teacher" ng-model="event.teacher">
+
+          </div>
+          <div class="form-group">
+            <label for="address"> address</label>
+            <input type="text" class="form-control" id="address"ng-model="event.address.address_1">
+
+          </div>
+          <div class="form-group">
+            <label for="city"> city</label>
+            <input type="text" class="form-control" id="city"ng-model="event.address.city">
+
+          </div>
+          <div class="form-group">
+            <label for="state"> state</label>
+            <input type="text" class="form-control" id="state"ng-model="event.address.state">
+
+          </div>
+          <div class="form-group">
+            <label for="zip"> zip</label>
+            <input type="text" class="form-control" id="zip"ng-model="event.address.zip">
+
+          </div>
+          <div class="form-group">
+            <label for="Date"> date </label>
+            <input type="text" class="form-control" id="date" ng-model="event.date">
+
+          </div>
+          <div class="form-group">
+            <label for="cost"> cost </label>
+            <input type="text" class="form-control" id="cost" ng-model="event.cost">
+          </div>
+<!--<div class="form-group">
+  <label for="name"> likes </label>
+  <input type="text" class="form-control" id="likes" ng-model="event.likes">
+</div>
+<div class="form-group">
+  <label for="name"> unlikes </label>
+  <input type="text" class="form-control" id="unlikes" ng-model="event.unlikes">
+</div>-->
+            <div class="form-group">
+              <label for="image"> image </label>
+              <input type="text" placeholder="Image URL"class="form-control" id="image" ng-model="event.image">
+
+
+          </div>
+          <image ng-src="{{event.image}}" src""/>
+
+
+
+
+          <table class="table table-bordered">
+
+            <thead><tr>
+                <td>Time</td>
+                <td>Sesion</td>
+              </tr></thead>
+              <tr ng-repeat="schedule in event.schedules">
+                <td>
+                  <div class="form-group">
+                      <input type="text" class="form-control" id="time" ng-model="schedule.time">
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="name" ng-model="schedule.name">
+                      </div>
+                    </td>
+                  </tr>
+          </table>
+          <div>
+          <button type="submit" class="btn btn-primary" href="AddEvent.html" ng-click="AddEvent(event)">
+            Save
+          </button>
+          <button type="submit" ng-click="cancelEdit()" class="btn btn-default" ng-click="AddEvent(event)">
+            Cancel
+          </button>
+          <div ng-repeat="i in 5">
+          </div>
+            </div>
+              </div>
+            </div>
+
+
+
+
+          </form>
+
+
+        <!--</div>-->

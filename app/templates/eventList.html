@@ -1,0 +1,80 @@
+
+
+    <div class="container">
+      <h1 class ="text-center"> List of Events </h1>
+    <!--  <div class="row">
+        <div class="col-md-10">
+            <input class="form-control"type =text ng-model="textFilter"/>
+        </div>
+          <div class="col-md-2">
+              <select class="form-control" ng-model="textSort">
+                  <option value= "cost">price low to high</option>
+                  <option value= "-cost">price high to low</option>
+                  <option value= "date">date</option>
+            </select>
+          </div>
+    </div>-->
+    <div class="row">
+    <!--  <div class="col-md-12">
+        <a class="btn btn-primary" href="AddEvent.html">
+          Add Event
+        </a>
+      </div>-->
+    </div>
+
+      <div class="row">
+        <div class="col-md-3" ng-repeat="event in events| filter: textFilter | orderBy :textSort">
+            <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">{{event.name}}</h3>
+            </div>
+            <a href="#events/{{event.id}}">
+            <div class="panel-body">
+            <img src={{event.image}} height="150" width="230"/>
+          </a>
+
+              <p> By {{event.teacher| uppercase}} </p>
+              <p> {{event.address.address_1}} </p>
+              <p> {{event.address.city}} {{event.address.state}} {{event.address.zip}} </p>
+              <p> {{event.date}} </p>
+              <p> {{event.cost|currency}} </p>
+
+<div class="row">
+  <div class="col-md-2">
+    <a href="#/events" ng-click="upVote(event)">
+      <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+    </a>
+
+  </div>
+  <div class="col-md-8">
+    <p> {{event.likes}}</p>
+  </div>
+</div>
+  <div class="row">
+  <div class="col-md-2">
+    <a href= "#/events" ng-click="downVote(event)">
+      <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="col-md-8">
+    <p> {{event.unlikes}}</p>
+  </div>
+</div>
+<div class = "text-center">
+  <button type="button" class="btn btn-success">Buy Tickit</button>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+        <!--  <h1>A Journey Through Heaven and Hell<h1>
+            <h4>By Shaykh Waleed Basyouni</h4>
+            <h5> Houston, Tx </h5> <br>
+              <p> April 22, 2016 </p>
+              <p>  Coast: $95</p>-->
+          </div>
+          </div>
+        <!--</div>-->
